@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+nav
+{
+    position: absolute;
+    display: flex;
+    padding: 3rem 7rem;
+    justify-content: space-between;
+    width: 100%;
+    cursor: pointer;
+}
+.container
+{
+    height: 100vh;
+    
+}
+.container .bg1
+{
+    z-index: -1;
+}
+
+.container .food
+{
+    top: 5%;
+    z-index: 0;
+}
+.container img
+{
+    width: 100%;
+    
+    position: absolute;
+    object-fit: cover;
+}
+
+.main-title
+{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    font-size: 3rem;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    text-align: center;
+}
+
+.content
+{
+    width: 100%;
+    background-color: rgb(24, 24, 24);
+    min-height: 100vh;
+    z-index: 3;
+    position: absolute;
+}
+
+.content-images
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 110vh;
+    text-align: center;
+    padding: 0 2rem
+}
+.content-delivery
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 110vh;
+    text-align: center;
+    padding: 0 2rem;
+    background-color: rgb(243, 45, 45);
+}
+
+.delivery-title
+{
+    position: absolute;
+    font-size: 4rem;
+    z-index: 1;
+    text-align: left;
+    line-height: 5rem;
+}
+
+.delivery-paragraph
+{
+    margin-top: 12rem;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+
+.content-white
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.rating
+{
+    max-width: 80%;
+    align-items: center;
+    margin-left: 10rem;
+    margin-top: -15rem;
+}
+
+.copyright
+{
+  display: flex;
+  margin-top: 8rem;
+  align-items: center;
+  justify-content: center;
+  height: 4rem;
+  background-color: rgb(24, 24, 24);
+  color: black;
+  font-size: 1rem;
+}
+
+h4
+{
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    transition: 0.2s;
+    cursor: pointer;
+}
+h4:hover
+{
+    color: rgb(243, 45, 45);
+}
+h3
+{
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.paragraph
+ {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+.text
+{
+    padding: 5rem 10rem;
+    font-size: 1.1rem;
+}
